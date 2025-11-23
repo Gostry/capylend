@@ -1,1 +1,2 @@
-.nav{display: flex}
+.nav div{display: flex;}
+.navUl {display: flex;list-style-type: none;}
