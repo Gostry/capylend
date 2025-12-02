@@ -33,3 +33,15 @@ a {
 }
 .navUl li {border: 1px solid white;border-radius: 0.5rem;}
 .navUl li a img {width: 15.22px;height: auto}
+
+
+
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.lg\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
