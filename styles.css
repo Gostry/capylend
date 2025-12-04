@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Unbounded:wght@200..900&display=swap");
 .header {
     position: fixed;
     top: 0;
@@ -8,40 +9,49 @@
     -webkit-backdrop-filter: blur(22px) brightness(1.25);
     background: rgba(15, 15, 15, 0.45);
     overflow: hidden;
-
-
 }
 
 .nav div {
     display: flex;
     align-items: center;
     width: 90%;
-    justify-content: space-around
+    justify-content: space-around;
 }
 .navUl {
     list-style-type: none;
 }
-a i {margin-right: 15px}
+a i {
+    margin-right: 15px;
+}
 a {
     background-color: #ffffff1a;
     border-radius: 0.5rem;
     font-size: 1.125rem;
     align-content: center;
-    padding:10px 15px 10px 15px;
-    display: flex;justify-content: space-evenly
-
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.navUl li {border: 1px solid white;border-radius: 0.5rem;}
-.navUl li a img {width: 15.22px;height: auto}
-
-
-
+.navUl li {
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+.navUl li a img {
+    width: 15.22px;
+    height: auto;
+}
 
 .text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
 .lg\:text-3xl {
-        font-size: 1.875rem;
-        line-height: 2.25rem;
-    }
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.div1 {
+    display: flex;
+}
+.div2 {display: flex;width: 50%;margin: 0 auto}
+.section2 img {width: 10rem;height: auto}
+
