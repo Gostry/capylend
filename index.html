@@ -25,11 +25,12 @@
             <nav class="nav">
                 <div style="background: #1310159e; border-radius: 16px; margin: 20px auto; padding: 5px; display: flex">
                     <img style="width: 80px; height: auto" src="https://capyland.net/images/main-logo.png" />
-                    <div style="width: 50%; justify-content: space-between">
-                        <a style="background-color: #ffa500e6"><i class="fas fa-home mr-2 svelte-1a14xbk"></i>Головна</a
-                        ><a><i class="fas fa-map mr-2 svelte-1a14xbk"></i>Мапа</a
-                        ><a><i class="fas fa-book mr-2 svelte-1a14xbk"></i>Вікі</a
-                        ><a><i class="fas fa-info-circle mr-2 svelte-1a14xbk"></i>Допомога</a>
+                    <div class="navA" style="width: 50%; justify-content: space-between">
+                        <a style="background-color: #ffa500e6"
+                            ><i class="fas fa-home mr-2 svelte-1a14xbk"></i><span>Головна</span></a
+                        ><a><i class="fas fa-map mr-2 svelte-1a14xbk"></i><span>Мапа</span></a
+                        ><a><i class="fas fa-book mr-2 svelte-1a14xbk"></i><span>Вікі</span></a
+                        ><a><i class="fas fa-info-circle mr-2 svelte-1a14xbk"></i><span>Допомога</span></a>
                     </div>
                     <div style="width: 33%; justify-content: space-evenly">
                         <ul class="navUl">
@@ -122,28 +123,41 @@
                 <div>
                     <div class="div1">
                         <div class="div2">
-                            <img src="https://capyland.net/images/coin.png" />
-
-                            <div>
+                            <div class="divimg">
+                                <img src="https://capyland.net/images/coin.png" />
+                            </div>
+                            <div class="divtext">
                                 <h3>Торгуйте!</h3>
                                 <p>Працюйте, видобувайте ресурси, продавайте видобуте, відкривайте бізнеси.</p>
                             </div>
                         </div>
                         <div class="div2">
-                            <img src="https://capyland.net/images/survival.png" />
-                            <div>
+                            <div class="divimg">
+                                <img src="https://capyland.net/images/survival.png" />
+                            </div>
+                            <div class="divtext">
                                 <h3>Виживайте!</h3>
                                 <p>Основна концепція сервера – класичне, ванільне виживання.</p>
                             </div>
                         </div>
                     </div>
                     <div class="div2" style="margin-top: 1rem">
-                        <img src="https://capyland.net/images/villager.png" />
-                        <div>
+                        <div class="divimg">
+                            <img src="https://capyland.net/images/villager.png" />
+                        </div>
+                        <div class="divtext">
                             <h3>Спілкуйтесь!</h3>
                             <p>На сервері велике, дружне ком'юніті, ви зможете знайти нові знайомства!</p>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="section3">
+                <h2>Статистика гравців</h2>
+                <div class="divButton">
+                    <button><i class="fas fa-fire-alt mr-2"></i><span>Серії</span></button
+                    ><button><i class="fas fa-clock mr-2"></i><span>Час гри</span></button
+                    ><button><i class="fas fa-vote-yea mr-2"></i><span>Голосування</span></button>
                 </div>
             </section>
         </main>

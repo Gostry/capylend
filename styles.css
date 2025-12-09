@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Unbounded:wght@200..900&display=swap");
+h1,
+h2,
+h3.h4.h5,
+p {
+    font-weight: inherit;
+}
 .header {
     position: fixed;
     top: 0;
@@ -40,6 +46,9 @@ a {
     width: 15.22px;
     height: auto;
 }
+.navA a i {
+    align-content: center;
+}
 
 .text-xl {
     font-size: 1.25rem;
@@ -51,7 +60,40 @@ a {
 }
 .div1 {
     display: flex;
+    padding: 1rem;
 }
-.div2 {display: flex;width: 50%;margin: 0 auto}
-.section2 img {width: 10rem;height: auto}
+.div2 {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
 
+.section2 img {
+    width: 10rem;
+    height: 10rem;
+}
+.divtext {
+    margin-left: 2rem;
+    width: 60%;
+    align-content: center;
+}
+.divtext h3 {
+    font-size: 2.25rem;
+}
+.divimg {
+    align-content: center;
+}
+
+.section3 h2 {
+    font-size: 3.75rem;
+    line-height: 1;
+    text-align: center;
+}
+.divButton {
+    justify-content: center;
+    display: flex;
+    background-color: transparent;
+
+}
+.divButton button {background-color: transparent;color: rgb(156 163 175)}
+.divButton button:hover {color: rgb(229 231 235)}
