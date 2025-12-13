@@ -93,7 +93,23 @@ a {
     justify-content: center;
     display: flex;
     background-color: transparent;
-
 }
-.divButton button {background-color: transparent;color: rgb(156 163 175)}
-.divButton button:hover {color: rgb(229 231 235)}
+.divButton {
+    border-bottom: 1px solid #1f293795;
+}
+.divButton button {
+    background-color: transparent;
+    color: rgb(156 163 175);
+    font-size: 1.125rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+}
+.divButton button:hover {
+    color: rgb(229 231 235);
+}
+.divButton i {
+    margin-right: 8px;
+}
