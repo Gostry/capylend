@@ -113,3 +113,6 @@ a {
 .divButton i {
     margin-right: 8px;
 }
+.card {width: 80%;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));}
+.card div {display: flex;border-radius: 1rem}
+.card img {width: 5.25vw;height: auto;margin-right: 1.25rem}
