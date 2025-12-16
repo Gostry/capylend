@@ -43,13 +43,13 @@ a {
     border-radius: 0.5rem;
 }
 .navUl li a img {
-    width: 15.22px;
+    width: 15.07px;
     height: auto;
 }
 .navA a i {
     align-content: center;
 }
-
+.navA a{margin: 8px}
 .text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -93,6 +93,7 @@ a {
     justify-content: center;
     display: flex;
     background-color: transparent;
+    border-radius:
 }
 .divButton {
     border-bottom: 1px solid #1f293795;
@@ -113,6 +114,31 @@ a {
 .divButton i {
     margin-right: 8px;
 }
-.card {width: 80%;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));}
-.card div {display: flex;border-radius: 1rem}
-.card img {width: 5.25vw;height: auto;margin-right: 1.25rem}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+.card div {
+    display: flex;
+    border-radius: 1rem;
+    width: 35%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+    border: 2px solid rgba(255,255,255,.1);
+    transition: 0.3s
+}
+.card div:hover {transform: translateY(-.25rem);border: 2px solid #ffa3014d;}
+.card img {
+    width: 20%;
+    height: auto;
+    margin-right: 1.25rem;
+    box-shadow: 0 4px 8px #ffa30133;
+    border-radius: .5rem;
+}
+.card img:hover {transform: scale(1.1)}
+.sectionF {display: flex;justify-content: center}
+
