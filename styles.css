@@ -49,7 +49,9 @@ a {
 .navA a i {
     align-content: center;
 }
-.navA a{margin: 8px}
+.navA a {
+    margin: 8px;
+}
 .text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -93,7 +95,7 @@ a {
     justify-content: center;
     display: flex;
     background-color: transparent;
-    border-radius:
+    border-radius:;
 }
 .divButton {
     border-bottom: 1px solid #1f293795;
@@ -128,17 +130,44 @@ a {
     align-items: center;
     padding: 2rem;
     justify-content: center;
-    border: 2px solid rgba(255,255,255,.1);
-    transition: 0.3s
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
 }
-.card div:hover {transform: translateY(-.25rem);border: 2px solid #ffa3014d;}
+.card div:hover {
+    transform: translateY(-0.25rem);
+    border: 2px solid #ffa3014d;
+}
 .card img {
     width: 20%;
     height: auto;
     margin-right: 1.25rem;
     box-shadow: 0 4px 8px #ffa30133;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 }
-.card img:hover {transform: scale(1.1)}
-.sectionF {display: flex;justify-content: center}
+.card img:hover {
+    transform: scale(1.1);
+}
+.sectionF {
+    display: flex;
+    justify-content: center;
+}
 
+.secthw {
+    background-color: #322e39;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    width: 70%;
+}
+.divnew details {
+    background-color: rgb(30 30 30);
+    border: 1px solid rgb(55 65 81);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1.125rem;
+    align-content: center;
+    font-size: medium
+}
+.divnew summary {
+    border-bottom: 1px solid rgb(55 65 81);
+    padding: 10px;font-size: large
+}
