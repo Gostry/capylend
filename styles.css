@@ -95,7 +95,7 @@ a {
     justify-content: center;
     display: flex;
     background-color: transparent;
-    border-radius:;
+
 }
 .divButton {
     border-bottom: 1px solid #1f293795;
@@ -132,7 +132,10 @@ a {
     justify-content: center;
     border: 2px solid rgba(255, 255, 255, 0.1);
     transition: 0.3s;
+
 }
+
+
 .card div:hover {
     transform: translateY(-0.25rem);
     border: 2px solid #ffa3014d;
@@ -181,7 +184,7 @@ a {
     align-items: center;
     align-content: center;
 }
-#div1 div {
+.divFull {
     background-color: #231e28cc;
     padding: 0.5rem;
     border: 2px solid #ffffff1a;
@@ -190,8 +193,9 @@ a {
     margin-bottom: 1rem;
     margin-right: 20px;
     margin-left: 12px;
+    display: flex;align-items: center;justify-content: space-around
 }
-#div1 div:hover {
+.divFull:hover {
     border: 2px solid rgb(253 186 116);
     transform: translateY(-5px);
     transition-duration: 0.15s;
@@ -205,3 +209,5 @@ a {
     margin: 0;
     font-size: 20px;
 }
+.div2 {}
+.div3 {}
