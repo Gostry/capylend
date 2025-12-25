@@ -1,10 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="input.css" />
         <meta charset="UTF-8" />
         <title>Title</title>
     </head>
-    <body><main><input onchange="button1()" id="input" type="color">  </main><script src="input.js"></script></body>
+    <body>
+        <main>
+            <input onchange="red1()" min="0" max="255" id="red" type="range" />
+            <input onchange="green1()" min="0" max="255" id="green" type="range" />
+            <input onchange="blue1()" min="0" max="255" id="blue" type="range" />
+            <input onchange="a1()" min="0" max="1" id="a" type="range" />
+        <h1 id="h1"></h1>
 
+        </main>
+        <script src="input.js"></script>
+    </body>
 </html>
