@@ -41,30 +41,45 @@ const voite = [
 ];
 staticPlayer(1);
 function staticPlayer(x) {
+    let h2 = document.createElement("h2");
+
     if (x == 1) {
         button1.style.color = "rgb(251 146 60)";
         button2.style.color = "rgb(156 163 175)";
         button3.style.color = "rgb(156 163 175)";
+        h2.textContent = "Топ серіq гравців";
+
         something = series;
     } else if (x == 2) {
         button2.style.color = "rgb(251 146 60)";
         button1.style.color = "rgb(156 163 175)";
         button3.style.color = "rgb(156 163 175)";
+        h2.textContent = "Топ гравців за часом гри";
         something = times;
     } else if (x == 3) {
         button3.style.color = "rgb(251 146 60)";
         button1.style.color = "rgb(156 163 175)";
         button2.style.color = "rgb(156 163 175)";
+        h2.textContent = "Топ голосуючих гравців";
         something = voite;
     }
+
     while (div1.firstChild) {
         div1.removeChild(div1.firstChild);
     }
+    div1.appendChild(h2);
+
     for (let i = 0; i < something.length; i = i + 1) {
+        let div0 = document.createElement("div");
+        div0.classList.add("numb");
+        let numb = document.createElement("p");
+        numb.textContent = something[i].id;
+
+        div0.appendChild(numb);
         let div = document.createElement("div");
         div.classList.add("divFull");
         let div2 = document.createElement("div");
-        div2.classList.add("div2");
+        div2.classList.add("divTwo");
         let div3 = document.createElement("div");
         div3.classList.add("div3");
         let h3 = document.createElement("h3");
@@ -72,7 +87,9 @@ function staticPlayer(x) {
         img.src = something[i].path;
         h3.textContent = something[i].nickname;
         let p = document.createElement("p");
+        p.style.color = "rgb(251 146 60)";
         p.textContent = something[i].dhv;
+        div.appendChild(div0);
         div2.appendChild(img);
         div3.appendChild(h3);
         div3.appendChild(p);

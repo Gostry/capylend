@@ -95,7 +95,6 @@ a {
     justify-content: center;
     display: flex;
     background-color: transparent;
-
 }
 .divButton {
     border-bottom: 1px solid #1f293795;
@@ -132,9 +131,7 @@ a {
     justify-content: center;
     border: 2px solid rgba(255, 255, 255, 0.1);
     transition: 0.3s;
-
 }
-
 
 .card div:hover {
     transform: translateY(-0.25rem);
@@ -193,7 +190,9 @@ a {
     margin-bottom: 1rem;
     margin-right: 20px;
     margin-left: 12px;
-    display: flex;align-items: center;justify-content: space-around
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .divFull:hover {
     border: 2px solid rgb(253 186 116);
@@ -203,11 +202,18 @@ a {
 #div1 p {
     margin: 0;
     font-size: 14px;
-    color: rgb(251 146 60);
 }
+#div1 img {margin: 0 15px}
 #div1 h3 {
     margin: 0;
     font-size: 20px;
 }
-.div2 {}
-.div3 {}
+.numb p {
+    background: linear-gradient(#facc15, #f97316);
+    color: white;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    align-content: center;
+}
